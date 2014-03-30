@@ -1,14 +1,11 @@
 metalsmith-clean
 ================
 
-Generates a cleanup bash script.
+Generates a cleanup script for your metalsmith build.
 
-Use case
---------
-
-When your build directory contains more than just your metalsmith build files.
-You may look at [the repository for my website]
-(http://github.com/srcreigh/srcreigh.github.io) for an example.
+This is useful when your build directory contains more than just your 
+metalsmith build files. You may look at [the repository for my website]
+(http://github.com/srcreigh/srcreigh.github.io) for a good use case.
 
 Install
 -------
@@ -27,14 +24,14 @@ var clean = require('metalsmith-clean');
 // Use this plugin after any other plugins that may add or change
 // files.
 .use(clean({
-    "path": "src/clean.sh"
+    "path": "clean.sh"
 }))
 ```
 
 Options
 -------
 
-```path``` - where to put the script
+```path``` - the relative path of your newly minted cleanup script
 
 Todo
 ----
