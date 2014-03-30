@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-cleanscript",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Generates a cleanup script for your metalsmith build.",
   "main": "lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/srcreigh/metalsmith-clean.git"
+    "url": "ssh://git@github.com/srcreigh/metalsmith-cleanscript.git"
   },
   "dependencies": {
     "path": "^0.4.9"
