@@ -21,17 +21,20 @@ Usage
 ```
 var clean = require('metalsmith-clean');
 
-// Use this plugin after any other plugins that may add or change
+// Use this plugin after any other plugins that may add or change 
 // files.
-.use(clean({
-    "path": "clean.sh"
-}))
+.use(clean("clean.sh"))
+
+// Equivalent to .use(clean()) since clean.sh is the default
 ```
 
-Options
--------
+Parameters
+----------
 
-```path``` - the relative path of your newly minted cleanup script
+the relative path of your newly minted cleanup script.
+
+**default** ```clean.sh```
+            
 
 Todo
 ----

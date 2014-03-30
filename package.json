@@ -1,0 +1,28 @@
+{
+  "name": "metalsmith-clean",
+  "version": "0.0.1",
+  "description": "Generates a cleanup script for your metalsmith build.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/srcreigh/metalsmith-clean.git"
+  },
+  "dependencies": {
+
+  },
+  "keywords": [
+    "metalsmith",
+    "cleanup",
+    "clean",
+    "script"
+  ],
+  "author": "Shane Creighton-Young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srcreigh/metalsmith-clean/issues"
+  },
+  "homepage": "https://github.com/srcreigh/metalsmith-clean"
+}
